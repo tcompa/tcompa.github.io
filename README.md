@@ -1,4 +1,4 @@
 tcompa.github.io
 ================
 
-Test of GitHub Pages
+Files for the webpage tcompa.github.io
