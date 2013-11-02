@@ -3,10 +3,10 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title> Guest Posts |  Webpage of Tommaso Comparin</title>
+        <title> Category: meta |  Sample Jekyll Blog</title>
         <link rel="stylesheet" href="/style.css" />
-        <meta name="description" content="Phd student at LPS/ENS (Paris)"/>
-        <meta name="author" content="TC"/>
+        <meta name="description" content="This is a sample Jekyll Blog."/>
+        <meta name="author" content="Your Name"/>
         <link rel="author" href="humans.txt"/>
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
 
@@ -18,8 +18,8 @@
     <body>
         <header>
             <hgroup>
-            <h1><a href="/">Welcome to Webpage of Tommaso Comparin</a></h1>
-                <h4>Phd student at LPS/ENS (Paris)</h4>
+            <h1><a href="/">Welcome to Sample Jekyll Blog</a></h1>
+                <h4>This is a sample Jekyll Blog.</h4>
             </hgroup>
             <hr />
         </header>
@@ -46,22 +46,30 @@
 
         <main>
 
-            <article>
-        <header>
-            <h2>Guest Posts</h2>
-            <span><i class="icon-clock"></i><time datetime="2012-03-15">Mar 15, 2012</time></span><br/>
-            <span class="category"><i class="icon-tag"></i> <a href="/meta/">meta</a></span><br/>
-            <span class="author"><i class="icon-user"></i> John Smith</span>
-        </header>
+            <div class="post">
 
-        <div class="entry"><p>If you want to create a guest post that will appear as if written by another author, simply add an <code>author</code> attribute to the
-YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page
-as well as on the individual post pages.</p>
+    <h2>Category: meta</h2>
+
+	<div class="entry">    <section>
+        <table>
+            
+            <tr>
+                <td><i class="icon-clock"></i><time datetime="2012-03-15">Mar 15, 2012</time></td>  
+                <td><a href="/meta/2012/03/15/guest-blogs/">Guest Posts</a></td>
+                <td><span class="category"><i class="icon-tag"></i> <a href="/meta/">meta</a></span></td>
+            </tr>
+            
+            <tr>
+                <td><i class="icon-clock"></i><time datetime="2012-01-18">Jan 18, 2012</time></td>  
+                <td><a href="/meta/2012/01/18/hello-world/">Hello World!</a></td>
+                <td><span class="category"><i class="icon-tag"></i> <a href="/meta/">meta</a></span></td>
+            </tr>
+            
+        </table>
+    </section>
 </div>
 
-        <footer><!-- additional info --></footer>
-
-</article>
+</div>
 
 
 
@@ -69,7 +77,7 @@ as well as on the individual post pages.</p>
 
         <footer>
             <hr />
-            <p>&copy; <time>2012</time> TC</p>
+            <p>&copy; <time>2012</time> Your Name</p>
         </footer>
 
     </body>
