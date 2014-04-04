@@ -31,6 +31,7 @@
 
 <div class="post">
 <h2></h2>
+
 <div class="entry">
 
 <ul>
@@ -54,8 +55,7 @@ Supervisor: <a href="http://www.mi.infm.it/~dpini">Davide Enrico Pini</a>.
 </li>
 </ul>
 
-<h2>Conferences and schools</h2>
-
+<h3>Conferences and schools</h3>
 <ul>
 <li>
 2014, June: <a href="http://comp-phys-2014.sciencesconf.org">4th Les Houches School in computational physics: From quantum gases to strongly correlated systems</a> (Les Houches, France).
@@ -65,12 +65,13 @@ Supervisor: <a href="http://www.mi.infm.it/~dpini">Davide Enrico Pini</a>.
 International School for Advanced Studies (Trieste, Italy).
 </li>
 <li>
-2011, August: <a href="http://www.utrechtsummerschool.nl/?type=courses&amp;code=H2">Utrecht Summer School in Theoretical Physics</a>.
+2011, August: <a href="http://www.utrechtsummerschool.nl/?type=courses&amp;code=H2">Utrecht Summer School in Theoretical Physics</a> (Utrecht, The Netherlands).
 </li>
 </ul>
 
-<h2>Other</h2>
-<ul><li>
+<h3>Other</h3>
+<ul>
+<li>
 2014, January-April: member of the staff for the on-line course <a href="https://www.coursera.org/course/smac">Statistical Mechanics: Algorithms and Computations</a>.
 </li>
 <li>
