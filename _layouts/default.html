@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+        <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
+        <meta name="description" content="{{site.description}}"/>
+        <meta name="author" content="{{site.author}}"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+
+        <link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/animation.css">
+        <!--[if IE 7]><link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello-ie7.css"><![endif]-->
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="{{site.baseurl}}/">{{ site.author }}</a></h1>
+                <h4>phd student at LPS/ENS (Paris)</h4>
+            <hr />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="{{site.baseurl}}/">home</a></li>
+                <li><a href="{{site.baseurl}}/cv">cv</a></li>
+                <li><a href="{{site.baseurl}}/contacts">contacts</a></li>
+            </ul>
+            <ul>
+                <li>Links:</li>
+                <li><a href="http://www.lps.ens.fr">LPS</a></li>
+                <li><a href="http://www.phys.ens.fr">Physique ENS</a></li>
+                <li><a href="http://gdr-atomesfroids.cnrs.fr">GdR Atomes Froids </a></li>
+            </ul>
+        </nav>
+
+        <main>
+            {{ content }}
+        </main>
+
+        <footer>
+            <hr />
+            <p>Generated with <a href="http://jekyllrb.com">Jekyll</a> (based on maciakl's <a href="https://github.com/maciakl/Sample-Jekyll-Site">example</a>) and hosted on <a href="https://github.com/tcompa/tcompa.github.io">GitHub</a>. | Last update: <time>May 2014</time></p>
+        </footer>
+
+    </body>
+
+</html>
