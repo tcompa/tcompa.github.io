@@ -1,2 +1,4 @@
 ### Files ignored for commit
 instructions.txt
+*~
+_site/*
