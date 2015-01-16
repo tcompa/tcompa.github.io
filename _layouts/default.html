@@ -1,51 +1,47 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
-        <link rel="author" href="humans.txt"/>
-        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
 
-        <link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/animation.css">
-        <!--[if IE 7]><link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello-ie7.css"><![endif]-->
-    </head>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <body>
-        <header>
-            <h1><a href="{{site.baseurl}}/">{{ site.author }}</a></h1>
-                <h4>phd student at LPS/ENS (Paris)</h4>
-            <hr />
-        </header>
+    <title> {{ page.title }} </title>
+  </head>
 
-        <nav>
-            <ul>
-                <li><a href="{{site.baseurl}}/">home</a></li>
-                <li><a href="{{site.baseurl}}/research">research</a></li>
-                <li><a href="{{site.baseurl}}/cv">cv</a></li>
-                <li><a href="{{site.baseurl}}/contacts">contacts</a></li>
-            </ul>
-            <ul>
-                <li>Links:</li>
-                <li><a href="http://www.lps.ens.fr">LPS</a></li>
-                <li><a href="http://www.phys.ens.fr">Physique ENS</a></li>
-                <li><a href="http://gdr-atomesfroids.cnrs.fr">GdR Atomes Froids </a></li>
-            </ul>
-        </nav>
-
-        <main>
+  <body>
+    <header>
+      <div class="inner">
+        <h1>{{site.name}}</h1>
+        <h2>phd student at LPS/ENS (Paris)</h2>
+      </div>
+    </header>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
             {{ content }}
-        </main>
-
-        <footer>
-            <hr />
-            <p>Generated with <a href="http://jekyllrb.com">Jekyll</a> (based on maciakl's <a href="https://github.com/maciakl/Sample-Jekyll-Site">example</a>) | Hosted on <a href="https://github.com/tcompa/tcompa.github.io">GitHub</a> | Last update: <time>December 2014</time></p>
-        </footer>
-
-    </body>
-
+        </section>
+        <aside id="sidebar">
+            <a href="/index.html"><h2>Homepage</h2></a>
+            <a href="/research.html"><h2>Research</h2></a>
+            <a href="/contacts.html"><h2>Contacts</h2></a>
+            <a href="/cv.html"><h2>CV</h2></a>
+            <h1>Links</h1>
+            <a href="http://www.lps.ens.fr"><h2>LPS</h2></a>
+            <a href="http://www.phys.ens.fr"><h2>Physique ENS</h2></a>
+            <a href="http://gdr-atomesfroids.cnrs.fr"><h2>GdR Atomes Froids</h2></a>
+           <br/><br/>
+           <p>Generated with <a href="http://jekyllrb.com">Jekyll</a>, based on <a href="https://github.com/jasonlong/architect-theme">architect-theme</a> (maintained by <a href="https://github.com/jasonlong">jasonlong</a>) and <a href="https://github.com/pietromenna/jekyll-architect-theme">jekyll-architect-theme</a> (maintained by <a href="https://github.com/pietromenna">pietromenna</a>)</p>
+           <p>Hosted on <a href="https://github.com/tcompa/tcompa.github.io">GitHub</a></p>
+           <p>Last updated: <time>January 2015</time></p>
+        </aside>
+      </div>
+    </div>
+  </body>
 </html>
