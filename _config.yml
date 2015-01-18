@@ -1,2 +1,4 @@
-name: Tommaso Comparin
-markdown: redcarpet
+name:        Tommaso Comparin
+markdown:    redcarpet
+description: test1
+url:         http://tcompa.github.io/
