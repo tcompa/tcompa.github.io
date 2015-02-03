@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paper accepted (bipartite optical lattice)"
+title:  "New paper out (bipartite optical lattice)"
 categories: publications BoseHubbard
 ---
 
