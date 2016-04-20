@@ -1,4 +1,4 @@
 name:        Tommaso Comparin
-markdown:    redcarpet
+markdown:    kramdown
 description: tcompa feeds
 url:         http://tcompa.github.io/
