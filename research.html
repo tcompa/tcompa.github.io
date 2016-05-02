@@ -11,23 +11,31 @@ title: research
 <br>
 
 <a name="unitary"></a> 
-<h2>Thermodynamics of the unitary Bose gas</h2>
-This is a project based on <b>path-integral quantum Monte Carlo</b> simulations of the thermodynamics of the unitary Bose gas, which is a system of bosons with resonant two-body interactions (i.e. infinite scattering length).
-This system has attracted large interest as it allows to observe three-body physics at action in a many-body system, since it has provided the first experimental observation of the <a href="http://en.wikipedia.org/wiki/Efimov_state">Efimov effect</a>, predicted in Nuclear Physics in the 1970s.
-Following a previous project by Swann Piatecki, I am working on the characterization of the phase diagram and of the <b>phase transitions</b> which exist for a model of this system.
+<h2>Unitary Bose gas</h2>
+
+Ultracold atomic gases (reaching temperatures as low as nanokelvins) represent experimental systems where a high degree of control can be reached, and the <b>Feshbach-resonance</b> technique is an important item in the tool-box:
+It allows to tune the strength of interparticle interactions over a broad range, from the weak-interactions limit to the so-called <b>unitary regime</b> (where the scattering length becomes infinite).
+The interest in systems of strongly-interacting atoms has been renewed by the observation, in 2006, of the first signatures of the <a href="http://en.wikipedia.org/wiki/Efimov_state">Efimov effect</a>.
+This effect was predicted in the 1970s in the nuclear-physics realm, but the first experimental observation of its consequences only came 35 years later, in experiments with ultracold gases.
+<br>
+Our work deals with a model for the three-dimensional homogeneous unitary Bose gas.
+We use stochastic numerical simulations (based on <b>path-integral quantum Monte Carlo</b>) to extract predictions from the model. We are interested in the different phases of the system and the shape of its correlation functions.
+In the <b>phase diagram</b>, three phases are identified.
+The high-temperature phase is a normal gas, while upon lowering the temperature the system enters one of the other two phases: The superfluid gas and the Efimov liquid.
+We also observe a set of features which are predicted for systems with short-ranged two-body interactions, in the short-distance behavior of single-particle and pair correlation functions.
 </p>
 <u>See:</u><br>
-Swann Piatecki, Werner Krauth, <i>Efimov-driven phase transitions of the unitary Bose gas</i>, Nature Communications <b>5</b> 3503 (2014). Links: <a href="http://arxiv.org/abs/1307.4671">arXiv</a>, <a href="http://www.nature.com/ncomms/2014/140320/ncomms4503/full/ncomms4503.html">Nature Communications</a> (subscription required).
+Tommaso Comparin, Werner Krauth, <i>Momentum distribution in the unitary Bose gas from first principles</i> (<a href="https://arxiv.org/abs/1604.08870">arXiv link</a>).
 </p>
 
 
 <a name="threebody"></a> 
 <h2>Classical three-body hard-core model</h2>
 <a href="http://www.sklogwiki.org/SklogWiki/index.php/Hard_disks">Hard disks</a> and <a href="http://www.sklogwiki.org/SklogWiki/index.php/Hard_sphere_model">hard spheres</a> are central models in Statistical Mechanics, and also some of the first ones to be treated by numerical methods as Monte Carlo or Molecular Dynamics.
-In a recent study of the unitary Bose gas in our group, the model of choice included a hard cut-off on the three-body distance (that is the root-mean-square distance of a triplet of particles);
+In a recent study of the unitary Bose gas in our group, the model of choice included a hard cut-off on the three-body distance (that is, the root-mean-square distance of a triplet of particles);
 now, we have pushed this model to the regime of large temperature and large density, and studied the classical system which only includes this <b>three-body hard-core potential</b> (to be compared with the usual pairwise hard-core repulsion).
 We have studied this generalized model in two and three dimensions, and found a <b>liquid-solid transition</b> upon increasing pressure.
-The three-body interactions give rise to peculiar structures in the limit of infinite pressure: according to our conjecture, the close-packed structure is a <b>triangular lattice of dimers</b> in two dimensions, while it is a <b>simple-hexagonal</b> lattice of single particles in three dimensions.
+Three-body interactions give rise to peculiar structures in the limit of infinite pressure: according to our conjecture, the close-packed structure is a <b>triangular lattice of dimers</b> in two dimensions, while it is a <b>simple-hexagonal</b> lattice of single particles in three dimensions.
 Starting from these infinite-pressure structures (which are also found through <a href="http://en.wikipedia.org/wiki/Simulated_annealing">simulated annealing</a>), we used Monte Carlo simulations in the NPT ensemble to measure the finite-pressure phase diagram.
 The two-dimensional solid is particularly interesting, since the dimer-dimer effective interaction can be seen at the same time as a frustrated <b>spin-spin coupling</b> (concerning the dimers' orientation) or as a <b>hard-disk repulsion</b> (concerning the dimers' positions).
 </p>
@@ -37,15 +45,14 @@ Tommaso Comparin, Sebastian Kapfer, Werner Krauth. <i>Liquid-solid transitions i
 
 <a name="bosehubbard"></a> 
 <h2>Inhomogeneous Bose Hubbard model</h2>
-Cold atoms loaded in optical lattices are regarded as clean and highly tunable set-ups, in which Condensed Matter models can be realized and studied in an easier way than in solid-state experiments.
+Ultracold atoms loaded in optical lattices are regarded as clean and highly tunable set-ups, in which Condensed Matter models can be realized and studied in an easier way than in solid-state experiments.
 A first example of this approach has been the <a href="http://www.nature.com/nature/journal/v415/n6867/abs/415039a.html">observation</a> of the <b>superfluid-to-Mott insulator phase transition</b> in a system of ultracold <sup>87</sup>Rb atoms, in which the predictions for the <a href="http://en.wikipedia.org/wiki/Bose%E2%80%93Hubbard_model">Bose-Hubbard model</a> (bosonic equivalent of the well known Hubbard model) were experimentally realized.<br>
-During my Master thesis, we have studied this model in the set-up where the optical lattice is modified by adding an external <b>harmonic potential</b>, as it is often the case in the experimental realizations (although there has been recent progress on the realization of uniform box-shaped potentials, see for instance <a href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.200406">here</a> or <a href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.135302">here</a>).
+During my MSc thesis, we have studied this model in the set-up where the optical lattice is modified by adding an external <b>harmonic potential</b>, as it is often the case in the experimental realizations (although there has been recent progress on the realization of uniform box-shaped potentials, see for instance <a href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.200406">here</a> or <a href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.135302">here</a>).
 In presence of this external potential, the system becomes inhomogeneous and different domains appear, forming the so-called <b>wedding-cake structure</b> in the density profile.
 Our study is mainly based on the <b>Gutzwiller technique</b>, which we apply to the inhomogeneous case.
-In a sub-project, I have used a naive Exact Diagonalization technique and Green's Function Monte Carlo to study the one-dimensional extended Bose Hubbard model, with a focus on the Haldane phase.<br>
+In a side-project, I have used a naive Exact Diagonalization technique and Green's Function Monte Carlo to study the one-dimensional extended Bose Hubbard model, with a focus on the Haldane phase.<br>
 In a successive study, we have addressed the problem of the Bose-Hubbard model on a <b>two-dimensional bipartite lattice</b>, in which the sites on two sublattices A and B (disposed as in a <b>checkerboard</b>) have different depths.
-This set-up has been experimentally realized at the <i>Institut für Laserphysik</i> (Hamburg), and the coherence of the system has been measured as a function of two variables: the lattice depth and the energy difference between the two sublattices (V_A &#060; V_B, meaning that the sublattice A is favored). We used a <b>generalized Gutzwiller ansatz</b> for this model to provide an interpretation of the experimental results. We find that when the energy difference V_B-V_A is large, the population of the sublattice B vanishes, and bosons form a Mott-insulating phase for the effective model which only includes sites A.<br>
-Moreover, the behavior of the experimental curve for the monopartite case (V_A=V_B) is interpreted using the LDA estimates of the critical couplings (obtained through a Monte Carlo technique).
+This set-up has been experimentally realized at the <i>Institut für Laserphysik</i> (Hamburg), and the coherence of the system has been measured as a function of two variables: the lattice depth and the energy difference between the two sublattices (V_A &#060; V_B, meaning that the sublattice A is favored). We used a <b>generalized Gutzwiller ansatz</b> for this model to provide an interpretation of the experimental results. We find that when the energy difference V_B-V_A is large, the population of the sublattice B vanishes, and bosons form a Mott-insulating phase for the effective model which only includes sites A.
 </p>
 <u>See:</u>
 <ul>
@@ -56,4 +63,3 @@ Links: <a href="http://www.nature.com/ncomms/2014/141211/ncomms6735/full/ncomms6
 </ul>
 </p>
 <br>
-
