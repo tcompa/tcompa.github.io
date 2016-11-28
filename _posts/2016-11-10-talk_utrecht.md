@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Seminar about unitary bosons, at ITF (Utrecht)"
-categories: seminar unitary
+categories: seminars unitary
 ---
 
 Today I've given the seminar "Thermodynamics of the unitary Bose gas from first principles", at [ITF][link-ITF] (Utrecht).
