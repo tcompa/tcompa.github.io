@@ -7,5 +7,5 @@ Generated with <a href="http://jekyllrb.com">Jekyll</a>, based on <a href="https
 
 To serve it locally:
 ```
-jekyll serve -w
+jekyll --server 4000
 ```

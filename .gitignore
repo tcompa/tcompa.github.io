@@ -2,3 +2,5 @@
 instructions.txt
 *~
 _site/*
+TODO.md
+local_serve.sh
