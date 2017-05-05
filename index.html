@@ -6,17 +6,19 @@ title: Tommaso Comparin | home
 <div id="home">
 <br/>
 From October 2013 to December 2016, I have been a PhD student in the <a href="http://www.lps.ens.fr/?Condensed-matter-theory&lang=en">Condensed matter theory group</a> of the Laboratoire de Physique Statistique (École Normale Supérieure, Paris), under the supervision of <a href="http://www.lps.ens.fr/~krauth">Werner Krauth</a>.
-I am interested in the field of numerical simulations of condensed matter and cold atomic systems, and worked in particular on path-integral quantum Monte Carlo simulations for the unitary Bose gas.
+I am interested in ultracold atoms and computational methods, and worked in particular on path-integral quantum Monte Carlo simulations for the unitary Bose gas.
 More details on <a href="/research.html">this page</a>.
 
 <br/>
+
 <h2>News</h2>
-<ul class="posts">
+<!--  <ul class="posts">  -->
 {% for post in site.posts %}
-<li>
-  <span>{{ post.date | date_to_string }}</span> - <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>  {{ post.content | split:'<!--break-->' | first }} {% if post.content contains '<!--break-->' %} <a href="{{ post.url }}">read more</a> {% endif %} 
-</li>
+<!--  <li>  -->
+<b><span>{{ post.date | date_to_string }}</span> - <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></b>
+{{ post.content | split:'<!--break-->' | first }} {% if post.content contains '<!--break-->' %} <a href="{{ post.url }}">read more</a> {% endif %} 
+<!--  </li>  -->
 {% endfor %}
-</ul>
+<!--  </ul>  -->
 
 </div>
