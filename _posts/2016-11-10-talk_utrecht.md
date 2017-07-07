@@ -4,7 +4,7 @@ title:  "Seminar about unitary bosons, at ITF (Utrecht)"
 categories: seminars unitary
 ---
 
-Today I've given the seminar "Thermodynamics of the unitary Bose gas from first principles", at [ITF][link-ITF] (Utrecht).
+Today I gave the seminar "Thermodynamics of the unitary Bose gas from first principles", at [ITF][link-ITF] (Utrecht).
 Here are the slides I presented: [pdf][link-slides].
 
 [link-ITF]: http://web.science.uu.nl/ITF/default.htm
