@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New manuscript on arXiv (Bose-Hubbard model in a BEC vortex lattice)"
+title:  "New manuscript on arXiv: Bose-Hubbard model in a BEC vortex lattice"
 categories: publications vortex-lattice
 ---
 
