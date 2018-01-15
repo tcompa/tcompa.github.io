@@ -4,3 +4,10 @@ description: tcompa feeds
 url:         http://tcompa.github.io/
 plugins:
   - jekyll-seo-tag
+twitter:
+  username: t_comparin
+links:
+    - https://twitter.com/t_comparin
+    - https://github.com/tcompa
+    - https://orcid.org/0000-0001-6853-5931
+    - https://arxiv.org/a/comparin_t_1.html
