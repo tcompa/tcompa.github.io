@@ -4,6 +4,7 @@ description: tcompa feeds
 url:         http://tcompa.github.io/
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 twitter:
   username: t_comparin
 links:

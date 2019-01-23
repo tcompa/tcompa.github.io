@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New paper on arxiv (Fermi mixture with dipolar interactions)"
-categories: publications dipoles QMC
+categories: publications dipoles qmc
 ---
 
 We uploaded our work about dipolar gases on arxiv ([link][link-arxiv]), see [here][link-research] for more details.

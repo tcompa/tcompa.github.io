@@ -8,3 +8,4 @@ serve/
 *.swp
 old/
 *.bak
+.jekyll-metadata
