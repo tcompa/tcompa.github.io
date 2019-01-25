@@ -1,7 +1,7 @@
 name:        Tommaso Comparin
 markdown:    kramdown
 description: tcompa feeds
-url:         http://tcompa.github.io/
+url:         https://tcompa.github.io/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
