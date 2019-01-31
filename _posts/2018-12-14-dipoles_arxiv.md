@@ -6,7 +6,7 @@ categories: publications dipoles qmc
 
 We uploaded our work about dipolar gases on arxiv ([link][link-arxiv]), see [here][link-research] for more details.
 The data obtained through Quantum Monte Carlo simulations are also available ([link][link-zenodo]).
-This work the result of the collaboration of groups in [Trento][link-trento], [Barcelona][link-barcelona] and [Grenoble][link-grenoble].
+This work is the result of the collaboration of groups in [Trento][link-trento], [Barcelona][link-barcelona] and [Grenoble][link-grenoble].
 
 [link-arxiv]: https://arxiv.org/abs/1812.08064
 [link-research]: /research.html#dipoles
