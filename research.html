@@ -14,7 +14,7 @@ numerical methods, especially Monte Carlo algorithms.<br>
 
 Below are some projects I worked on:
 <ul>
-<li><a href="#dipoles">Ultracold mixture of fermionic dipoles</a></li>
+<li><a href="#dipoles">Ultracold fermionic mixtures in two dimensions</a></li>
 <li><a href="#anyons">Anyonic statistics with ultracold atoms</a></li>
 <li><a href="#unitary">Unitary Bose gas</a></li>
 <li><a href="#vortexlattice">Bose-Hubbard model in a BEC vortex lattice</a></li>
@@ -24,24 +24,23 @@ Below are some projects I worked on:
 
 
 <a name="dipoles"></a>
-<h2>Ultracold mixture of fermionic dipoles</h2>
+<h2>Ultracold fermionic mixtures in two dimensions</h2>
 <img src="/images/research/dipoles_eos.png"
      width="180" alt="Dipolar equation of state" align="right" />
 
-The first experiments with ultracold gases made use of atoms which interact
-through a short-range potential, that is, only when their distance is small.
-Other atoms (like Erbium and Dysprosium) have a larger dipole moment, and their
-interaction has a slow power-law decay at large interatomic distance.
-Ultracold gases of dipolar atoms are nowadays routinely produced in several
-labs, and were already employed to probe many-body features related to the
-peculiar dipole-dipole interaction potential.
+The first experiments with ultracold gases made use of atoms with short-range
+interaction potentials. Other atoms (like Erbium and Dysprosium) have a larger
+dipole moment, and their interaction has a slow power-law decay at large
+interatomic distance.  Ultracold gases of dipolar atoms are nowadays routinely
+produced in several labs, and were already employed to probe many-body features
+related to the peculiar dipole-dipole interaction potential.
 <br>
 
-We theoretically study a two-dimensional model for dipolar fermions at zero
-temperature, by means of the quantum Monte Carlo technique. We focus on a
-binary mixture, namely a system of two fermionic components.  We compute the
-energy and the pair distribution functions, and their dependence on the
-density. This constitutes a useful reference for future experiments in
+In [Comparin, 2019], we study a two-dimensional model for dipolar
+fermions at zero temperature by means of the quantum Monte Carlo technique. We
+focus on a binary mixture, namely a system of two fermionic components. We
+compute the energy and the pair distribution functions, and their dependence on
+the density. This constitutes a useful reference for future experiments in
 quasi-two-dimensional regimes.
 <br>
 
@@ -57,15 +56,34 @@ relying on the fixed-node approximation. In our study we make use of
 approach, and observe no signature of a fully-polarized ground state.
 <br>
 
+In [Bombín, 2019], we consider the extremely polarized system, where a
+single impurity is immersed in a fermionic bath. We compute the polaron energy
+and distribution functions via quantum Monte Carlo methods, and we determine
+observables related to the quasiparticle picture like the quasiparticle residue
+and the effective mass. We repeat the analysis for two models: one with dipolar
+interaction and one where the impurity interacts with an ideal Fermi bath
+through a hard-core potential.
+
+
 </p>
 <u>See</u>:</br>
+<ul>
+<li>
+R. Bombín, T. Comparin, G. Bertaina, F. Mazzanti, S. Giorgini, J. Boronat,
+<i>Two-dimensional repulsive Fermi polarons with short and long-range interactions</i>,
+[<a href="https://arxiv.org/abs/1905.10125">arxiv:1905.10125</a>]. Data associated to this paper are made available with DOI <a href="https://doi.org/10.5281/zenodo.2677634">10.5281/zenodo.2677634</a>.
+</li>
+<li>
 T. Comparin, R. Bombín, M. Holzmann, F. Mazzanti, J. Boronat, S. Giorgini,
 <i>Two-dimensional Mixture of Dipolar Fermions: Equation of State and Magnetic
 Phases</i>, <a href="https://link.aps.org/doi/10.1103/PhysRevA.99.043609">Phys.
 Rev. A <b>99</b>, 043609 (2019)</a> [<a
-href="https://arxiv.org/abs/1812.08064">arxiv:1812.08064</a>].  Data associated
+href="https://arxiv.org/abs/1812.08064">arxiv:1812.08064</a>]. Data associated
 to this paper are made available with DOI <a
 href="https://doi.org/10.5281/zenodo.2425856">10.5281/zenodo.2425856</a>.
+</li>
+</ul>
+
 
 <a name="anyons"></a>
 <h2>Anyonic statistics with ultracold atoms</h2>
