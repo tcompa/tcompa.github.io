@@ -13,4 +13,4 @@ This work is the result of the collaboration of groups in [Trento][link-trento],
 [link-trento]: http://bec.science.unitn.it/
 [link-barcelona]: http://bqmc.upc.edu/index.php
 [link-milano]: https://orcid.org/0000-0002-9440-4537
-[link-zenodo]: https://doi.org/10.5281/zenodo.2425856
+[link-zenodo]: https://doi.org/10.5281/zenodo.2677634
