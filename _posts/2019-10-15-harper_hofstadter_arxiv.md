@@ -8,4 +8,4 @@ Our work on the quasihole excitations Harper-Hofstadter model is now on arxiv ([
 For this study we made use of the Tree Tensor Network (TTN) Ansatz.
 
 [link-arxiv]: https://arxiv.org/abs/1910.05222
-[link-research]: /research.html#anyons
+[link-research]: /research.html#harperhofstadter
