@@ -14,14 +14,68 @@ numerical methods, especially Monte Carlo algorithms.<br>
 
 Below are some projects I worked on:
 <ul>
-<li><a href="#dipoles">Ultracold fermionic mixtures in two dimensions</a></li>
 <li><a href="#anyons">Anyonic statistics with ultracold atoms</a></li>
+<li><a href="#dipoles">Ultracold fermionic mixtures in two dimensions</a></li>
 <li><a href="#unitary">Unitary Bose gas</a></li>
 <li><a href="#vortexlattice">Bose-Hubbard model in a BEC vortex lattice</a></li>
 <li><a href="#bosehubbard">Bose-Hubbard model in optical lattices</a></li>
 <li><a href="#threebody">Classical three-body hard-core model</a></li>
 </ul>
 
+
+<a name="anyons"></a>
+<h2>Anyonic statistics with ultracold atoms</h2>
+<img src="/images/research/moorereadprofile.png"
+     width="250" alt="Moore-Read density profile" align="right" />
+
+Anyons are quantum indistinguishable objects which are neither bosons nor
+fermions, but have an intermediate statistics. This property is encoded in the
+phase acquired by the wave function upon the exchange of two particles.
+Solid-state physics is the main playground for studying anyons, which typically
+appear as excitations on top of a fractional quantum Hall state. More recently,
+ultracold atomic gases are seen as an alternative possibility for producing and
+detecting this kind of states.
+<br>
+
+In our work, we propose a protocol to identify anyonic statistics in an
+ultracold-atoms setup, based on currently available experimental techniques.
+We make use of a general mathematical relation between angular momentum and the
+statistical phase to highlight the anyonic properties of quasihole excitations
+in fractional quantum Hall fluids. This protocol requires the knowledge of
+quantities as simple as the spatial size of the fluid at rest, or the
+density-depletion profile induced by a quasihole.
+<br>
+
+We verify the validity of our approach in two paradigmatic cases, namely for
+the Laughlin and Moore-Read wave functions, by making use of the Monte Carlo
+sampling technique.  In [Umucalilar, 2018] we demonstrate that we can correctly
+retrieve the braiding phase of Laughlin quasihole states, while in [Macaluso,
+2019] we generalize our approach to the case of the non-Abelian anyonic
+excitations of the Moore-Read state. In the latter case, we are able to
+identify the different fusion channels of this anyonic model.
+<br>
+
+</p>
+<u>See</u>:</br>
+<ul>
+<li>
+E. Macaluso, T. Comparin, L. Mazza, I. Carusotto,
+<i>Fusion channels of non-Abelian anyons from angular-momentum and density-profile measurements</i>,
+<a href="https://arxiv.org/abs/1903.03011">arxiv:1903.03011</a>.
+</li>
+<li>
+R. O. Umucalilar, E. Macaluso, T. Comparin, I. Carusotto,
+<i> Time-of-Flight Measurements as a Possible Method to Observe Anyonic Statistics</i>,
+<a href="https://link.aps.org/doi/10.1103/PhysRevLett.120.230403">Phys. Rev. Lett. <b>120</b>, 230403 (2018)</a>
+[<a href="https://arxiv.org/abs/1712.07940">arxiv:1712.07940</a>].
+</li>
+<li>
+Scientific code associated to this project:<br>
+T. Comparin, E. Macaluso.
+<i>Laughlin-Metropolis</i>
+[doi: <a href="http://doi.org/10.5281/zenodo.1193694">10.5281/zenodo.1193694</a>].
+</li>
+</p>
 
 <a name="dipoles"></a>
 <h2>Ultracold fermionic mixtures in two dimensions</h2>
@@ -89,61 +143,6 @@ Data and additional simulation details: <a
 href="https://doi.org/10.5281/zenodo.2425856">10.5281/zenodo.2425856</a>.
 </li>
 </ul>
-
-
-<a name="anyons"></a>
-<h2>Anyonic statistics with ultracold atoms</h2>
-<img src="/images/research/moorereadprofile.png"
-     width="250" alt="Moore-Read density profile" align="right" />
-
-Anyons are quantum indistinguishable objects which are neither bosons nor
-fermions, but have an intermediate statistics. This property is encoded in the
-phase acquired by the wave function upon the exchange of two particles.
-Solid-state physics is the main playground for studying anyons, which typically
-appear as excitations on top of a fractional quantum Hall state. More recently,
-ultracold atomic gases are seen as an alternative possibility for producing and
-detecting this kind of states.
-<br>
-
-In our work, we propose a protocol to identify anyonic statistics in an
-ultracold-atoms setup, based on currently available experimental techniques.
-We make use of a general mathematical relation between angular momentum and the
-statistical phase to highlight the anyonic properties of quasihole excitations
-in fractional quantum Hall fluids. This protocol requires the knowledge of
-quantities as simple as the spatial size of the fluid at rest, or the
-density-depletion profile induced by a quasihole.
-<br>
-
-We verify the validity of our approach in two paradigmatic cases, namely for
-the Laughlin and Moore-Read wave functions, by making use of the Monte Carlo
-sampling technique.  In [Umucalilar, 2018] we demonstrate that we can correctly
-retrieve the braiding phase of Laughlin quasihole states, while in [Macaluso,
-2019] we generalize our approach to the case of the non-Abelian anyonic
-excitations of the Moore-Read state. In the latter case, we are able to
-identify the different fusion channels of this anyonic model.
-<br>
-
-</p>
-<u>See</u>:</br>
-<ul>
-<li>
-E. Macaluso, T. Comparin, L. Mazza, I. Carusotto,
-<i>Fusion channels of non-Abelian anyons from angular-momentum and density-profile measurements</i>,
-<a href="https://arxiv.org/abs/1903.03011">arxiv:1903.03011</a>.
-</li>
-<li>
-R. O. Umucalilar, E. Macaluso, T. Comparin, I. Carusotto,
-<i> Time-of-Flight Measurements as a Possible Method to Observe Anyonic Statistics</i>,
-<a href="https://link.aps.org/doi/10.1103/PhysRevLett.120.230403">Phys. Rev. Lett. <b>120</b>, 230403 (2018)</a>
-[<a href="https://arxiv.org/abs/1712.07940">arxiv:1712.07940</a>].
-</li>
-<li>
-Scientific code associated to this project:<br>
-T. Comparin, E. Macaluso.
-<i>Laughlin-Metropolis</i>
-[doi: <a href="http://doi.org/10.5281/zenodo.1193694">10.5281/zenodo.1193694</a>].
-</li>
-</p>
 
 
 
