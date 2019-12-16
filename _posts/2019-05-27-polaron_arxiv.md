@@ -4,7 +4,7 @@ title:  "New paper on arxiv (repulsive Fermi polaron in two dimensions)"
 categories: publications dipoles qmc polaron
 ---
 
-We uploaded our work about two-dimensional Fermi polarons gases on arxiv ([link][link-arxiv]), see [here][link-research] for more details.
+We uploaded our work about polarons in two-dimensional Fermi gases on arxiv ([link][link-arxiv]), see [here][link-research] for more details.
 The data obtained through Quantum Monte Carlo simulations are also available ([link][link-zenodo]).
 This work is the result of the collaboration of groups in [Trento][link-trento], [Barcelona][link-barcelona] and [Milano][link-milano].
 
