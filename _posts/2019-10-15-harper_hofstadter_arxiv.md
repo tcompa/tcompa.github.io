@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New on arxiv: Harper-Hofstadter model via Tree Tensor Networks"
-categories: publications dipoles qmc polaron
+categories: publications anyons tensornetworks
 ---
 
 Our work on the quasihole excitations of the Harper-Hofstadter model is now on arxiv ([link][link-arxiv]), see [here][link-research] for more details.
