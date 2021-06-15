@@ -8,4 +8,4 @@ Together with colleagues from ENS Lyon, we just uploaded our new work on arxiv (
 
 
 [link-arxiv]: https://arxiv.org/abs/2103.07354
-[link-research]: /research.html#harperhofstadter
+[link-research]: /research.html#squeezing
