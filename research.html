@@ -15,8 +15,7 @@ numerical methods, especially Monte Carlo algorithms.<br>
 Below are some projects I worked on:
 <ul>
 <li><a href="#squeezing">Spin squeezing generation with quantum simulators</a></li>
-<li><a href="#anyons">Anyonic statistics with ultracold atoms</a></li>
-<li><a href="#harperhofstadter">Anyonic statistics on the lattice</a></li>
+<li><a href="#anyons">Anyonic statistics in Fractional Quantum Hall states</a></li>
 <li><a href="#dipoles">Ultracold fermionic mixtures in two dimensions</a></li>
 <li><a href="#unitary">Unitary Bose gas</a></li>
 <li><a href="#vortexlattice">Bose-Hubbard model in a BEC vortex lattice</a></li>
@@ -79,7 +78,8 @@ T. Roscilde, F. Mezzacapo, T. Comparin,
 
 
 <a name="anyons"></a>
-<h2>Anyonic statistics with ultracold atoms</h2>
+<h2>Anyonic statistics in Fractional Quantum Hall states</h2>
+
 <img src="/images/research/moorereadprofile.png"
      width="250" alt="Moore-Read density profile" align="right" />
 
@@ -109,6 +109,28 @@ retrieve the braiding phase of Laughlin quasihole states, while in [Macaluso,
 excitations of the Moore-Read state. In the latter case, we are able to
 identify the different fusion channels of this anyonic model.
 <br>
+
+<img src="/images/research/harperhofstadter.png"
+     width="180" alt="Harper-Hofstadter model" align="right" />
+After studying these Fractional Quantum Hall states, we focused on the
+corresponding states for lattice systems - known as Fractional Chern
+Insulators. We consider the Harper-Hofstadter model, a Bose-Hubbard model (see
+also <a href="#bosehubbard">Bose-Hubbard model in optical lattices</a>) with
+complex hopping due to the presence of a gauge field. Already in the
+non-interacting case, complex hopping may induce non-trivial topological
+properties for the eigenstates of the system. This remains true for the case we
+consider, that is, in the presence of strong local interactions. As a method to
+identify the ground state, we make use of Tree Tensor Networks, which are a
+powerful variational Ansatz in the class of Tensor Network states (see for
+instance <a href="https://arxiv.org/abs/1812.04011">this review by Rom&aacute;n
+Or&uacute;s</a>). For systems of up to 18 particles, we study the ground state
+in the presence of a harmonic trap. By adding some external <i>pinning</i>
+potentials, we generate and localize quasihole excitations with the expected
+fractional charge. We then apply the methods developed for the off-lattice
+Fractional Quantum Hall states to link the braiding phase of quasiholes to the
+depletion that they induce in the background density profile, and we observe a
+reasonable agreement with the expected results.
+
 
 </p>
 <u>See</u>:
@@ -142,39 +164,6 @@ T. Comparin, E. Macaluso.
 <i>Laughlin-Metropolis</i>
 [doi: <a href="http://doi.org/10.5281/zenodo.1193694">10.5281/zenodo.1193694</a>].
 </li>
-</p>
-
-<a name="harperhofstadter"></a>
-<h2>Anyonic statistics on the lattice</h2>
-<img src="/images/research/harperhofstadter.png"
-     width="180" alt="Harper-Hofstadter model" align="right" />
-
-In <a href="#anyons">some of our previous works</a>, we proposed a scheme to
-detect signatures of anyonic statistics in Fractional Quantum Hall states.
-The corresponding states for lattice systems are known as Fractional Chern
-Insulators. We focus on the Harper-Hofstadter model, a Bose-Hubbard model (see
-also <a href="#bosehubbard">Bose-Hubbard model in optical lattices</a>) with
-complex hopping due to the presence of a gauge field. Already in the
-non-interacting case, complex hopping may induce non-trivial topological
-properties for the eigenstates of the system. This remains true for the case we
-consider, that is, in the presence of strong local interactions. As a method to
-identify the ground state, we make use of Tree Tensor Networks, which are a
-powerful variational Ansatz in the class of Tensor Network states (see for
-instance <a href="https://arxiv.org/abs/1812.04011">this review by Rom&aacute;n
-Or&uacute;s</a>). For systems of up to 18 particles, we study the ground state
-in the presence of a harmonic trap. By adding some external <i>pinning</i>
-potentials, we generate and localize quasihole excitations with the expected
-fractional charge. We then apply the methods developed for the off-lattice
-Fractional Quantum Hall states to link the braiding phase of quasiholes to the
-depletion that they induce in the background density profile, and we observe a
-reasonable agreement with the expected results.
-
-</p>
-<u>See</u>:
-E. Macaluso, T. Comparin, O. Umucalilar, M. Gerster, S. Montangero, M. Rizzi, I. Carusotto,
-<i>Charge and statistics of lattice quasiholes from density measurements: a Tree Tensor Network study</i>,
-<a href="https://link.aps.org/doi/10.1103/PhysRevResearch.2.013145">Phys. Rev. Research <b>2</b>, 013145 (2020)</a>
-[<a href="https://arxiv.org/abs/1910.05222">arXiv:1910:05222</a>].
 </p>
 
 <a name="dipoles"></a>
