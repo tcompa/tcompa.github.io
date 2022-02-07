@@ -14,6 +14,7 @@ numerical methods, especially Monte Carlo algorithms.<br>
 
 Below are some projects I worked on:
 <ul>
+<li><a href="#squeezing">Spin squeezing generation with quantum simulators</a></li>
 <li><a href="#anyons">Anyonic statistics with ultracold atoms</a></li>
 <li><a href="#harperhofstadter">Anyonic statistics on the lattice</a></li>
 <li><a href="#dipoles">Ultracold fermionic mixtures in two dimensions</a></li>
@@ -22,6 +23,59 @@ Below are some projects I worked on:
 <li><a href="#bosehubbard">Bose-Hubbard model in optical lattices</a></li>
 <li><a href="#threebody">Classical three-body hard-core model</a></li>
 </ul>
+
+
+<a name="squeezing"></a>
+<h2>Spin-squeezing generation with quantum simulators</h2>
+
+<img src="/images/research/spinsqueezing.png"
+     width="250" alt="Spin-squeezing dynamics" align="left" />
+
+Spin squeezing of the collective spin is a fundamental property of correlated
+quantum states, both as a resource for quantum metrology and as a witness of
+entanglement. The paradigmatic way to generate squeezing is the dynamics
+induced by the one-axis-twisting collective-spin dynamics (as realized e.g.
+with spinor Bose-Einstein condensates). We proposed two alternative strategies,
+suitable to a broad range of modern quantum-simulation platforms.
+<br>
+
+(1) Several platforms realize spin-1/2 models with slowly-decaying spin-spin
+couplings - e.g. Rydberg atoms with dipolar couplings, or trapped ions. For
+these systems, a quench protocol initialized in a coherent spin state generates
+spin squeezing at short time, where the dynamics remains close to the sector
+with maximal total spin. For couplings that are sufficiently long-range, the
+optimal squeezing value (obtained at finite time) has the same scaling
+properties as for the one-axis-twisting model - a consequence of the large
+overlap of the initial state with the so-called Anderson tower of states.
+<br>
+
+(2) For platform that realize short-range spin-1/2 models (like
+bosonic/fermionic Mott insulators in optical lattices, or superconducting
+circuits), we propose an alternative protocol for scalable spin squeezing. This
+consists in preparing a fully polarized ground state by means of a strong
+magnetic field, and then slowly reducing the field in the presence of spin-spin
+couplings. As the ground state tends to develop long-range order,
+transverse-spin fluctuations are reduced and the squeezing diverges (in the
+thermodynamic limit) as the fields tends to zero.
+<br>
+
+</p>
+<u>See</u>:
+<ul>
+<li>
+T. Comparin, F. Mezzacapo, T. Roscilde,
+<i>Universal spin squeezing from the tower of states of U(1)-symmetric spin Hamiltonians</i>,
+<a href="https://arxiv.org/abs/2103.07354">arXiv:2103.07354</a>.
+Data and additional simulation details: <a
+href="https://doi.org/10.5281/zenodo.5993008">10.5281/zenodo.5993008</a>.
+</li>
+<li>
+T. Roscilde, F. Mezzacapo, T. Comparin,
+<i>Spin squeezing from bilinear spin-spin interactions: two simple theorems</i>,
+<a href="https://link.aps.org/doi/10.1103/PhysRevA.104.L040601">Phys. Rev. A <b>104</b>, L040601 (2021)</a>
+[<a href="https://arxiv.org/abs/2106.07460">arXiv:2106.07460</a>].
+</li>
+</p>
 
 
 <a name="anyons"></a>
@@ -59,6 +113,17 @@ identify the different fusion channels of this anyonic model.
 </p>
 <u>See</u>:
 <ul>
+<li>
+T. Comparin, A. Opler, E. Macaluso, A. Biella, A. P. Polychronakos, L. Mazza,
+<i> A measurable fractional spin for quantum Hall quasiparticles on the disk</i>,
+<a href="https://arxiv.org/abs/2112.02901">arXiv:2111.02901</a>.
+</li>
+<li>
+E. Macaluso, T. Comparin, O. Umucalilar, M. Gerster, S. Montangero, M. Rizzi, I. Carusotto,
+<i>Charge and statistics of lattice quasiholes from density measurements: a Tree Tensor Network study</i>,
+<a href="https://link.aps.org/doi/10.1103/PhysRevResearch.2.013145">Phys. Rev. Research <b>2</b>, 013145 (2020)</a>
+[<a href="https://arxiv.org/abs/1910.05222">arXiv:1910:05222</a>].
+</li>
 <li>
 E. Macaluso, T. Comparin, L. Mazza, I. Carusotto,
 <i>Fusion channels of non-Abelian anyons from angular-momentum and density-profile measurements</i>,
